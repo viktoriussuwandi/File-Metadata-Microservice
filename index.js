@@ -26,7 +26,8 @@ function uploadFiles(req, res) {
     if (req.files) {
       // let name; let type; let size;
       let files = req.files[0];
-      console.log(files);
+      // console.log(files);
+      
       data = {name : files.originalname, type : files.mimetype, size : files.size };
       res.json(data); 
     }
