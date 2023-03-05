@@ -1,8 +1,8 @@
 # File Metadata Microservice
-#### Solution running on : https://replit.com/@ViktoriusSuwand/File-Metadata-Microservice-Project-8
+### Solution running on : https://replit.com/@ViktoriusSuwand/File-Metadata-Microservice-Project-8
 
 This is the result to complete the Metadata Microservice project. 
-Instructions for building this project can be found at 
+Instructions for building your project can be found at 
 https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice
 
 ###  Some of additional features :
@@ -21,7 +21,3 @@ https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices
 -The form file input field has the name attribute set to upfile.
 
 -When you submit a file, you receive the file name, type, and size in bytes within the JSON response.
-
-
-### Test Result :
-![complete](complete.jpg)

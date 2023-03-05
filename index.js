@@ -1,11 +1,8 @@
 var express = require('express');
 var cors = require('cors');
-const multer  = require('multer');
-
-require('dotenv').config();
+require('dotenv').config()
 
 var app = express();
-const upload = multer({ dest: 'public/uploads' })
 
 app.use(cors());
 app.use('/public', express.static(process.cwd() + '/public'));
@@ -18,22 +15,10 @@ app.get('/', function (req, res) {
 /*---------------------------------------MY CODE-------------------------------------------*/
 /*-----------------------------------------------------------------------------------------*/
 
-//Array is the name of html element with type file
-app.post("/api/fileanalyse", upload.array("upfile"), uploadFiles);
+app.post('/api/fileanalyse',(req,res) => {
+  
+});
 
-function uploadFiles(req, res) {
-  
-    if (req.files) {
-      // let name; let type; let size;
-      let files = req.files[0];
-      // console.log(files);
-      
-      data = {name : files.originalname, type : files.mimetype, size : files.size };
-      res.json(data); 
-    }
-  else { res.json({ message : "no files" }); }
-  
-}
 
 /*=========================================================================================*/
 
