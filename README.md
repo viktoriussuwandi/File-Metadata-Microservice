@@ -1,5 +1,4 @@
 # File Metadata Microservice
-#### Solution running on : [https://replit.com/@ViktoriusSuwand/File-Metadata-Microservice-Project-8](https://replit.com/@ViktoriusSuwand/File-Metadata-Microservice-Project-8)
 
 #### Documentation can be found on : [https://github.com/viktoriussuwandi/File-Metadata-Microservice](https://github.com/viktoriussuwandi/File-Metadata-Microservice)
 
